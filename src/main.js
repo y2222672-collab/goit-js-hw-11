@@ -1,14 +1,14 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import 'simple-lightbox/dist/simple-lightbox.min.css';
 
 import { getImagesByQuery } from './js/pixabay-api.js';
+
 import {
-  createGallery,
   clearGallery,
+  createGallery,
   showLoader,
   hideLoader,
-} from './js/render-functions.js';
+} from './js/render-function.js';
 
 const searchForm = document.querySelector('.form');
 const searchInput = document.querySelector('input[name="search-text"]');
